@@ -303,6 +303,8 @@ Arguments has length property, but lacks all of the array methods
 <a name="hoisting" />
 # Hoisting #
 - Using a function before you declare it
+- Default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function)
+- To avoid bugs, always declare all variables at the beginning of every scope
 
 ````JavaScript
 Hoisted();   // logs "foo"
